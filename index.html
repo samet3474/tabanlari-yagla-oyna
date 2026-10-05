@@ -92,7 +92,7 @@ body {
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
-<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#3a86ff">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#3a86ff"><style>#status-progress{display:none!important}#yk{position:fixed;left:50%;bottom:7%;transform:translateX(-50%);width:min(80vw,440px);z-index:9999;font:900 26px/1 'Arial Black',Arial,sans-serif;color:#ffd628;text-align:center;text-shadow:-3px -3px 0 #1b2550,3px -3px 0 #1b2550,-3px 3px 0 #1b2550,3px 3px 0 #1b2550,0 5px 0 #1b2550}#yk .b{position:relative;height:34px;border:5px solid #1b2550;border-radius:20px;background:rgba(255,255,255,.55);overflow:hidden;margin-top:10px;box-shadow:0 5px 0 #1b2550}#yk .f{height:100%;width:0;background:linear-gradient(#ffe766,#ffb21a);border-radius:14px;transition:width .25s}#yk .n{position:absolute;inset:0;font-size:20px;line-height:24px;color:#fff}</style><script>addEventListener('DOMContentLoaded',function(){var d=document.createElement('div');d.id='yk';d.innerHTML='<div>YÜKLENİYOR...</div><div class=b><div class=f></div><div class=n>%0</div></div>';document.body.appendChild(d);var f=d.querySelector('.f'),n=d.querySelector('.n'),v=0;var iv=setInterval(function(){var s=document.getElementById('status'),p=document.getElementById('status-progress');if(!s||getComputedStyle(s).visibility=='hidden'||getComputedStyle(s).display=='none'){d.remove();clearInterval(iv);return;}if(p&&p.max>0&&p.value>0){v=Math.max(v,Math.min(100,Math.round(100*p.value/p.max)));}f.style.width=v+'%';n.textContent='%'+v;},100);});</script>
 	</head>
 	<body>
 		<canvas id="canvas">
@@ -111,7 +111,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":18614296,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":22596244,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
