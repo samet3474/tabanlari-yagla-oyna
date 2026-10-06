@@ -1,4 +1,5 @@
 {
+  "_aciklama": "hediyeler: Yenilikler hediyeleri (id benzersiz). gunluk_giris: Günlük Giriş takvimi (5-30 gün; altin / xp / kaykay / koleksiyon / board). Düzenle -> sh tools/hediye_gonder.sh",
   "hediyeler": [
     {
       "id": "test_15_altin",
@@ -9,6 +10,53 @@
       "kaykay": 0,
       "bitis": "2026-12-31",
       "surum": "1.9.7"
+    }
+  ],
+  "gunluk_giris": [
+    {
+      "altin": 100
+    },
+    {
+      "altin": 200
+    },
+    {
+      "xp": 300
+    },
+    {
+      "koleksiyon": 1
+    },
+    {
+      "altin": 400
+    },
+    {
+      "kaykay": 3
+    },
+    {
+      "board": "kaykay_mavi"
+    },
+    {
+      "altin": 500
+    },
+    {
+      "xp": 500
+    },
+    {
+      "kaykay": 4
+    },
+    {
+      "altin": 700
+    },
+    {
+      "koleksiyon": 1
+    },
+    {
+      "xp": 800
+    },
+    {
+      "kaykay": 5
+    },
+    {
+      "altin": 1500
     }
   ]
 }
