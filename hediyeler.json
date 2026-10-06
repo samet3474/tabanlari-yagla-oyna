@@ -1,0 +1,13 @@
+{
+  "hediyeler": [
+    {
+      "id": "test_15_altin",
+      "baslik": "Test hediyesi",
+      "metin": "Hediye sistemini deniyoruz. Bu 15 altın senin!",
+      "altin": 15,
+      "xp": 0,
+      "kaykay": 0,
+      "bitis": "2026-12-31"
+    }
+  ]
+}
