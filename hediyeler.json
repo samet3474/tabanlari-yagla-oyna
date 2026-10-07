@@ -1,5 +1,5 @@
 {
-  "_aciklama": "hediyeler: Yenilikler hediyeleri (id benzersiz). gunluk_giris: Günlük Giriş takvimi (5-30 gün; altin / xp / kaykay / koleksiyon / board / takviye / onde). Düzenle -> sh tools/hediye_gonder.sh",
+  "_aciklama": "hediyeler: Yenilikler hediyeleri (id benzersiz). gunluk_giris: Günlük Giriş takvimi (5-30 gün; altin / xp / kaykay / koleksiyon / board). Düzenle -> sh tools/hediye_gonder.sh",
   "hediyeler": [
     {
       "id": "test_15_altin",
@@ -38,7 +38,7 @@
       "altin": 500
     },
     {
-      "onde": 1
+      "xp": 500
     },
     {
       "kaykay": 4
@@ -50,7 +50,7 @@
       "koleksiyon": 1
     },
     {
-      "takviye": 1
+      "xp": 800
     },
     {
       "kaykay": 5
