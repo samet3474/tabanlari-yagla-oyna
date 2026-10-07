@@ -1,5 +1,5 @@
 {
-  "_aciklama": "hediyeler: Yenilikler hediyeleri (id benzersiz). gunluk_giris: Günlük Giriş takvimi (5-30 gün; altin / xp / kaykay / koleksiyon / board). Düzenle -> sh tools/hediye_gonder.sh",
+  "_aciklama": "hediyeler: Yenilikler hediyeleri (id benzersiz). gunluk_giris: Günlük Giriş takvimi (5-30 gün; altin / xp / kaykay / koleksiyon / board). Düzenle -> sh tools/hediye_gonder.sh kelime_avi: belirli günün Kelime Avı kelimesi {\"YYYY-AA-GG\": \"FENER\"} (boşsa oyun kendi listesinden seçer).",
   "hediyeler": [
     {
       "id": "test_15_altin",
@@ -62,5 +62,6 @@
   "android": {
     "surum": "2.7.9",
     "apk": "https://github.com/samet3474/tabanlari-yagla-oyna/releases/latest/download/tabanlari-yagla.apk"
-  }
+  },
+  "kelime_avi": {}
 }
