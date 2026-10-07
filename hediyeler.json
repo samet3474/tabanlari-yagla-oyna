@@ -60,7 +60,7 @@
     }
   ],
   "android": {
-    "surum": "2.8.0",
+    "surum": "2.8.1",
     "apk": "https://github.com/samet3474/tabanlari-yagla-oyna/releases/latest/download/tabanlari-yagla.apk"
   },
   "kelime_avi": {}
