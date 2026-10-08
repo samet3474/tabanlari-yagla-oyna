@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1791440481|22163155';
+const CACHE_VERSION = '1791457742|21942861';
 /** @type {string} */
 const CACHE_PREFIX = 'Tabanları Yağla!-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
