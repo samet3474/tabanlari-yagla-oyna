@@ -63,5 +63,22 @@
     "surum": "2.9.0",
     "apk": "https://github.com/samet3474/tabanlari-yagla-oyna/releases/latest/download/tabanlari-yagla.apk"
   },
-  "kelime_avi": {}
+  "kelime_avi": {},
+  "haberler": [
+    {
+      "id": "cadilar_2026",
+      "etiket": "ETKİNLİK",
+      "baslik": "Cadılar Bayramı İstanbul'da!",
+      "metin": "Bu hafta İstiklal'in kaldırımları balkabaklarıyla süslendi. Mağazaya da ürkütücü ama çok sevimli yeni koşucular geldi.",
+      "adimlar": [
+        "Koşarken kaldırımlardaki balkabaklarına bak, her sokakta seni bekliyorlar.",
+        "MAĞAZA > KARAKTERLER'de iskeletler Kemik, Haydut, Savaşçı ve zombi Zeki altınla alınır.",
+        "Zombi Zeyno 14 gün giriş yapınca, Cadı Nazlı Kelime Avı'nda 7 kelime tamamlayınca senin.",
+        "İskelet Büyücü 15. seviyede kendiliğinden açılır.",
+        "Balkabakları 2 Kasım'a kadar sokaklarda, yeni karakterler ise hep mağazada."
+      ],
+      "baslangic": "2026-10-24",
+      "bitis": "2026-11-02"
+    }
+  ]
 }
