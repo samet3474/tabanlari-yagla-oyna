@@ -1,10 +1,12 @@
 {
-  "_aciklama": "hediyeler: Yenilikler hediyeleri (id benzersiz). gunluk_giris: Günlük Giriş takvimi (5-30 gün; altin / xp / kaykay / koleksiyon / board). Düzenle -> sh tools/hediye_gonder.sh kelime_avi: belirli günün Kelime Avı kelimesi {\"YYYY-AA-GG\": \"FENER\"} (boşsa oyun kendi listesinden seçer).",
+  "_aciklama": "hediyeler: Yenilikler hediyeleri (id benzersiz). gunluk_giris: Günlük Giriş takvimi (5-30 gün; altin / xp / kaykay / koleksiyon / board). Düzenle -> sh tools/hediye_gonder.sh kelime_avi: belirli günün Kelime Avı kelimesi {\"YYYY-AA-GG\": \"FENER\"} (boşsa oyun kendi listesinden seçer). İngilizce oynayanlar için isteğe bağlı \"<alan>_en\" (baslik_en, metin_en, adimlar_en, maddeler_en): yoksa Türkçesi görünür.",
   "hediyeler": [
     {
       "id": "test_15_altin",
       "baslik": "Test hediyesi",
+      "baslik_en": "Test gift",
       "metin": "Hediye sistemini deniyoruz. Bu 15 altın senin!",
+      "metin_en": "We're testing the gift system. These 15 coins are yours!",
       "altin": 15,
       "xp": 0,
       "kaykay": 0,
@@ -69,13 +71,22 @@
       "id": "cadilar_2026",
       "etiket": "ETKİNLİK",
       "baslik": "Cadılar Bayramı İstanbul'da!",
+      "baslik_en": "Halloween in Istanbul!",
       "metin": "Bu hafta İstiklal'in kaldırımları balkabaklarıyla süslendi. Mağazaya da ürkütücü ama çok sevimli yeni koşucular geldi.",
+      "metin_en": "This week İstiklal's sidewalks are decorated with pumpkins. Spooky but very cute new runners have arrived in the shop too.",
       "adimlar": [
         "Koşarken kaldırımlardaki balkabaklarına bak, her sokakta seni bekliyorlar.",
         "MAĞAZA > KARAKTERLER'de iskeletler Kemik, Haydut, Savaşçı ve zombi Zeki altınla alınır.",
         "Zombi Zeyno 14 gün giriş yapınca, Cadı Nazlı Kelime Avı'nda 7 kelime tamamlayınca senin.",
         "İskelet Büyücü 15. seviyede kendiliğinden açılır.",
         "Balkabakları 2 Kasım'a kadar sokaklarda, yeni karakterler ise hep mağazada."
+      ],
+      "adimlar_en": [
+        "Look for the pumpkins on the sidewalks while running, they're waiting for you on every street.",
+        "In SHOP > CHARACTERS, the skeletons Kemik, Haydut, Savaşçı and the zombie Zeki can be bought with coins.",
+        "Zombie Zeyno is yours after logging in on 14 days, and Nazlı the Witch after completing 7 words in Word Hunt.",
+        "Skeleton Büyücü unlocks by itself at level 15.",
+        "The pumpkins stay on the streets until November 2, the new characters stay in the shop forever."
       ],
       "baslangic": "2026-10-24",
       "bitis": "2026-11-02"
