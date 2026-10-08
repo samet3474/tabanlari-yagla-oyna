@@ -62,7 +62,7 @@
     }
   ],
   "android": {
-    "surum": "2.13.0",
+    "surum": "2.13.1",
     "apk": "https://github.com/samet3474/tabanlari-yagla-oyna/releases/latest/download/tabanlari-yagla.apk"
   },
   "kelime_avi": {},
