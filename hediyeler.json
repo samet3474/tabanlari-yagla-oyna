@@ -62,7 +62,7 @@
     }
   ],
   "android": {
-    "surum": "3.0.2",
+    "surum": "3.0.3",
     "apk": "https://github.com/samet3474/tabanlari-yagla-oyna/releases/latest/download/tabanlari-yagla.apk"
   },
   "kelime_avi": {},
@@ -90,6 +90,38 @@
       ],
       "baslangic": "2026-10-24",
       "bitis": "2026-11-02"
+    }
+  ],
+  "kodlar": [
+    {
+      "ozet": "bac499ca128d8d0b43434cf14153a3ee7ee77196707dd974f60038cf0786236f",
+      "altin": 500,
+      "anahtar": 1,
+      "bitis": "2027-12-31"
+    },
+    {
+      "ozet": "3cc82685e61a1e25c56ef8d783cf52af8a19627243c58cac7775b339e139b9ac",
+      "altin": 750,
+      "anahtar": 1,
+      "bitis": "2027-12-31"
+    },
+    {
+      "ozet": "311534da169c6de434ac67101b35271b36cd4b772a8a30788ec55e5d2afd8232",
+      "altin": 1000,
+      "anahtar": 2,
+      "bitis": "2027-12-31"
+    },
+    {
+      "ozet": "66b37e7536f0f53b22965daefdec156cd062864692029f782374c1893bd06ca8",
+      "altin": 2000,
+      "anahtar": 3,
+      "bitis": "2027-12-31"
+    },
+    {
+      "ozet": "fc9698487b0e2a1d731d3a033a8ac53d7c8ebbd6c540903a2b5bf22248e40164",
+      "altin": 5000,
+      "anahtar": 5,
+      "bitis": "2027-12-31"
     }
   ]
 }
