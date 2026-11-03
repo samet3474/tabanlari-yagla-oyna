@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1793657137|9150131';
+const CACHE_VERSION = '1793681010|6376103';
 /** @type {string} */
 const CACHE_PREFIX = 'Tabanları Yağla!-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
@@ -17,10 +17,11 @@ const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = false;
 const CACHED_FILES = ["index.html","index.js","index.offline.html","index.icon.png","index.apple-touch-icon.png","index.audio.worklet.js","index.audio.position.worklet.js"];
 // Files that we might not want the user to preload, and will only be cached on first load.
 /** @type {string[]} */
-const CACHEABLE_FILES = ["index.wasm","index.pck.part00","index.pck.part01"];
+const CACHEABLE_FILES = ["index.wasm","index.pck.part00"];
 const FULL_CACHE = CACHED_FILES.concat(CACHEABLE_FILES);
 
 self.addEventListener('install', (event) => {
+	self.skipWaiting();
 	event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(CACHED_FILES)));
 });
 
